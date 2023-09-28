@@ -24,7 +24,7 @@ import java.util.List;
 
 @RestController
 public class Controller {
-    @GetMapping(value = "/sa")
+    @GetMapping(value = "/")
         public ModelAndView page(){
             ModelAndView modelAndView = new ModelAndView("homepage");
             modelAndView.getModel().put("data","Welcome to the Load Management System!");
