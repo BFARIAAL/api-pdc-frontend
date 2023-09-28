@@ -2,12 +2,12 @@ spring:
   application:
     name: api-pdc
   datasource:
-    url: jdbc:mysql://localhost:3306/restapi
-    username: root
-    password: Pedrosousa@123
+    url: jdbc:mysql://localhost:3306/d42-api-pdc
+    username: apiUser
+    password: late%37
 
 server:
-  port: 8080
+  port: 4200
   servlet:
     context-path: /api-pdc
   shutdown: graceful

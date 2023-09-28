@@ -24,7 +24,7 @@
           $("#menu").load("images/navbar.html");
         });
 
-        $.get('/vehicles/all').then(function(response) {
+        $.get('localhost:8080/api-pdc/api/load_management/vehicles/all').then(function(response) {
 
         $.each(response, function(index, item) {
 
@@ -43,27 +43,27 @@
 
   const searchTerm = $('#car_search').val();
 
-  $.get('/vehicle/' + searchTerm )
-    .then(function(response) {
-
-      $('#dynamic_cars').empty();
-
-      if (!response || response.length === 0) {
-        return;
-      }
-
-      response.forEach(item => {
-        const row = $('<tr></tr>');
-
-            const vinCell = $('<td></td>').text(item.vin);
-            const locCell = $('<td></td>').text(item.locCode);
-
-            row.append(vinCell, locCell);
-
-            $('#dynamic_cars').append(row);
-      });
-
-    });
+  // $.get('/vehicle/' + searchTerm )
+  //   .then(function(response) {
+  //
+  //     $('#dynamic_cars').empty();
+  //
+  //     if (!response || response.length === 0) {
+  //       return;
+  //     }
+  //
+  //     response.forEach(item => {
+  //       const row = $('<tr></tr>');
+  //
+  //           const vinCell = $('<td></td>').text(item.vin);
+  //           const locCell = $('<td></td>').text(item.locCode);
+  //
+  //           row.append(vinCell, locCell);
+  //
+  //           $('#dynamic_cars').append(row);
+  //     });
+  //
+  //   });
 
 });
         });
