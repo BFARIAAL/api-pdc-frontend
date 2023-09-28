@@ -20,7 +20,7 @@
 
         .column {
           width: 50%;
-          height: content-fit;
+          /*height: content-fit;*/
           border: 4px solid black;
           float: left;
           align: center;
@@ -51,7 +51,7 @@
         });
 
 
-        $.get('/get-cars-available-load').then(function(response) {
+        $.get('http://localhost:8080/api-pdc/api/load_management/vehicles/all').then(function(response) {
 
             $.each(response, function(index, item) {
               $("#droptarget").append(`
