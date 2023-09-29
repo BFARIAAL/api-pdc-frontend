@@ -1,0 +1,176 @@
+{
+  "language": "en-GB",
+  "text": {
+    "locations": [
+      {
+        "id": "SLP",
+        "name": "Solihul Plant"
+      },
+      {
+        "id": "SLC",
+        "name": "Solihull Compound"
+      },
+      {
+        "id": "EXT",
+        "name": "External"
+      },
+      {
+        "id": null,
+        "name": "Unkown Location"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "description": "Super User"
+      },
+      {
+        "id": 2,
+        "description": "Internal User"
+      },
+      {
+        "id": 3,
+        "description": "Carrier Admin"
+      },
+      {
+        "id": 4,
+        "description": "Carrier User"
+      },
+      {
+        "id": 5,
+        "description": "Compound User"
+      },
+      {
+        "id": 6,
+        "description": "Compound Admin"
+      },
+      {
+        "id": 7,
+        "description": "Port Operator - Admin"
+      },
+      {
+        "id": 8,
+        "description": "Port Operator"
+      },
+      {
+        "id": 9,
+        "description": "Shiping Agent"
+      },
+      {
+        "id": 10,
+        "description": "Carrier Admin - Overseas"
+      },
+      {
+        "id": 11,
+        "description": "Carrier User - Overseas"
+      },
+      {
+        "id": 12,
+        "description": "Plant Admin"
+      },
+      {
+        "id": 13,
+        "description": "Plant User"
+      }
+    ],
+    "menus": [
+      {
+        "code": 1,
+        "name": "Home"
+      },
+      {
+        "code": 2,
+        "name": "Plants"
+      },
+      {
+        "code": 3,
+        "name": "Carriers"
+      },
+      {
+        "code": 4,
+        "name": "Admin Area"
+      }
+    ],
+    "home": {
+      "title": "DS - Distribution System",
+      "subtitle": "Home Dashboard",
+      "text1": "Wellcome to DS!",
+      "text2": "Please note that this application is still under development.",
+      "text3": "At present, these are the only functionalities:",
+      "point1": "Change the language of the application.",
+      "point2": "Log In and out of the application."
+    },
+    "footer": "This Application is under development.",
+    "header": {
+      "text1": "Role: ",
+      "text2": "Location: ",
+      "button": "Logout"
+    },
+    "admin": {
+      "title": "Admin Area",
+      "text1": "Wellcome to the Admin Area.",
+      "text2": "Remember that this screen must notbe operated by anauthorised personel.",
+      "text3": "Please find this screen's functionalities in the menu bar above",
+      "warningTittle": "WARNING",
+      "warningMessage": "This screen is for the use of authorised personel only!",
+      "menus": [
+        {
+          "code": 4.1,
+          "name": "Route Explorer"
+        },
+        {
+          "code": 4.2,
+          "name": "System"
+        },
+        {
+          "code": 4.3,
+          "name": "Scanner"
+        },
+        {
+          "code": 4.4,
+          "name": "User"
+        },
+        {
+          "code": 4.5,
+          "name": "Distributor"
+        },
+        {
+          "code": 4.6,
+          "name": "Dealer"
+        },
+        {
+          "code": 4.7,
+          "name": "Plant Countries"
+        },
+        {
+          "code": 4.8,
+          "name": "Event"
+        },
+        {
+          "code": 4.9,
+          "name": "Carrier"
+        },
+        {
+          "code": 4.11,
+          "name": "Location Event"
+        },
+        {
+          "code": 4.12,
+          "name": "Routing Roules"
+        },
+        {
+          "code": 4.13,
+          "name": "Bulk Email"
+        },
+        {
+          "code": 4.14,
+          "name": "Calendar"
+        },
+        {
+          "code": 4.15,
+          "name": "Batch Job"
+        }
+      ]
+    }
+  }
+}

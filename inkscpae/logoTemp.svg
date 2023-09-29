@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="logoTemp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.2973261"
+     inkscape:cx="-820.64777"
+     inkscape:cy="-110.98925"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:290.062px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#800000;fill-rule:evenodd;stroke-width:1.14199"
+       x="56.281769"
+       y="205.93781"
+       id="text476"
+       transform="matrix(1.0530702,0,-0.00627065,0.9496043,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:290.062px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#800000;stroke-width:1.14199"
+         x="56.281769"
+         y="205.93781">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:290.073px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#008000;fill-rule:evenodd;stroke-width:1.14202"
+       x="-82.872604"
+       y="198.97591"
+       id="text530"
+       transform="skewX(2.9679294)"><tspan
+         sodipodi:role="line"
+         id="tspan528"
+         style="fill:#008000;stroke-width:1.14202"
+         x="-82.872604"
+         y="198.97591">D</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffff00;fill-rule:evenodd;stroke-width:0.2"
+       id="path887"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="15.730932"
+       sodipodi:cy="77.710808"
+       sodipodi:r1="38.384762"
+       sodipodi:r2="14.207426"
+       sodipodi:arg1="0.91909868"
+       sodipodi:arg2="1.4666806"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 39.012711,108.22881 17.207478,91.841299 -6.0989518,109.28368 2.7483146,83.481648 -21.042456,66.705908 6.2306878,67.146892 14.833612,39.336536 22.842076,65.411109 51.949747,64.999104 29.626105,80.673091 Z"
+       inkscape:transform-center-x="0.21466106"
+       inkscape:transform-center-y="-2.6326474"
+       transform="matrix(0.77414819,0,0,0.77414819,123.89448,44.76564)" />
+  </g>
+</svg>

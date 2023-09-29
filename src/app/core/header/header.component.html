@@ -1,0 +1,30 @@
+<!--Header Area-->
+<div class="container-fluid bg-dark text-light">
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-between align-items-center">
+        <img class="text-light fs-3" src="./assets/logo.png" width="5%" style="margin: 1%" alt="DS" />
+        <!--User Information Dropdown-->
+        <div class="mb-0 fs-4 dropdown">
+          <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ userID }} <i class="bi bi-person-circle"></i>
+          </button>
+          <div class="dropdown-menu p-4 text-body-secondary" style="width: max-content">
+            <p>
+              {{ roleTxt }} {{ role }}<br />
+              {{ locationTxt }} {{ location }}
+            </p>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <button type="button" class="btn btn-danger" (click)="logoutUser()" routerLink="">
+                <i class="bi bi-power"></i> {{ logout }}
+              </button>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
