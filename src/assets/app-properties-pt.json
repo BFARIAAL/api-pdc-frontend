@@ -1,0 +1,176 @@
+{
+  "language": "pt-PT",
+  "text": {
+    "locations": [
+      {
+        "id": "SLP",
+        "name": "Planta de Solihull"
+      },
+      {
+        "id": "SLC",
+        "name": "Complexo de Solihull"
+      },
+      {
+        "id": "EXT",
+        "name": "Externo"
+      },
+      {
+        "id": null,
+        "name": "Localização Desconhecida"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "description": "Super Usuário JLR"
+      },
+      {
+        "id": 2,
+        "description": "Usuário Interno JLR"
+      },
+      {
+        "id": 3,
+        "description": "Administrador de Transportadora"
+      },
+      {
+        "id": 4,
+        "description": "Usuário de Transportadora"
+      },
+      {
+        "id": 5,
+        "description": "Usuário de Complexo"
+      },
+      {
+        "id": 6,
+        "description": "Administrador de Complexo"
+      },
+      {
+        "id": 7,
+        "description": "Operador Portuário - Administrador"
+      },
+      {
+        "id": 8,
+        "description": "Operador Portuário"
+      },
+      {
+        "id": 9,
+        "description": "Agente de Cargas Marítimas"
+      },
+      {
+        "id": 10,
+        "description": "Administrador de Transportadora - Ultramarino"
+      },
+      {
+        "id": 11,
+        "description": "Usuário de Transportadora - Ultramarino"
+      },
+      {
+        "id": 12,
+        "description": "Administrador de Planta"
+      },
+      {
+        "id": 13,
+        "description": "Usuário de Planta"
+      }
+    ],
+    "menus": [
+      {
+        "code": 1,
+        "name": "Página Principal"
+      },
+      {
+        "code": 2,
+        "name": "Plantas"
+      },
+      {
+        "code": 3,
+        "name": "Transportadoras"
+      },
+      {
+        "code": 4,
+        "name": "Área Administrativa"
+      }
+    ],
+    "home": {
+      "title": "D42 - Sistema de Distribuição",
+      "subtitle": "Dashboard Principal",
+      "text1": "Bem vindos a D42 Web!",
+      "text2": "Lembre-se que esta aplicação aínda está em desenvolvimento.",
+      "text3": "De momento, estes são as unicas funcionalidades funcionais:",
+      "point1": "Mudar o idioma da aplicação.",
+      "point2": "Logar e deslogar da aplicação."
+    },
+    "footer": "Esta aplicação está em desenvolvimento.",
+    "header": {
+      "text1": "Função: ",
+      "text2": "Localização: ",
+      "button": "Sair"
+    },
+    "admin": {
+      "title": "Área Administrativa",
+      "text1": "Bem-vindo(a) à Área administrativa.",
+      "text2": "Este ecrâ é para o uso exclusivo de pessoal autorizado.",
+      "text3": "Selecione uma das funcionalidades no menu acima.",
+      "warningTittle": "AVISO",
+      "warningMessage": "Este ecrâ é apenas para o uso de pessoal autorizado!",
+      "menus": [
+        {
+          "code": 4.1,
+          "name": "Explorador de Rotas"
+        },
+        {
+          "code": 4.2,
+          "name": "Sistema"
+        },
+        {
+          "code": 4.3,
+          "name": "Scanner"
+        },
+        {
+          "code": 4.4,
+          "name": "Usuários"
+        },
+        {
+          "code": 4.5,
+          "name": "Distribuidores"
+        },
+        {
+          "code": 4.6,
+          "name": "Concessionárias"
+        },
+        {
+          "code": 4.7,
+          "name": "Países de Fabricação"
+        },
+        {
+          "code": 4.8,
+          "name": "Eventos"
+        },
+        {
+          "code": 4.9,
+          "name": "Transportadoras"
+        },
+        {
+          "code": 4.11,
+          "name": "Eventos Locais"
+        },
+        {
+          "code": 4.12,
+          "name": "Regras de Rota"
+        },
+        {
+          "code": 4.13,
+          "name": "Emails Programados"
+        },
+        {
+          "code": 4.14,
+          "name": "Calendarário"
+        },
+        {
+          "code": 4.15,
+          "name": "Batch Job"
+        }
+      ]
+    }
+  }
+}

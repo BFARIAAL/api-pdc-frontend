@@ -1,0 +1,16 @@
+<div *ngIf="!globals.isLoading">
+  <!-- Main page -->
+  <div *ngIf="globals.isUserLoggedIn">
+    <app-header></app-header>
+    <app-menu-bar></app-menu-bar>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+  <!-- Log in Page -->
+  <div *ngIf="!globals.isUserLoggedIn">
+    <app-login></app-login>
+  </div>
+</div>
+<div *ngIf="globals.isLoading">
+  <app-loading-screen></app-loading-screen>
+</div>

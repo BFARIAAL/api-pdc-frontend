@@ -1,0 +1,104 @@
+{
+    "languages": [
+        {
+            "code": "en",
+            "flag": "fi fi-gb",
+            "name": "English"
+        },
+        {
+            "code": "pt",
+            "flag": "fi fi-pt",
+            "name": "Português"
+        },
+        {
+            "code": "ua-UA",
+            "flag": "fi fi-ua",
+            "name": "Українська"
+        }
+    ],
+    "menus": [
+        {
+            "code": 1,
+            "link": "",
+            "icon": "bi bi-house"
+        },
+        {
+            "code": 2,
+            "link": "/plant",
+            "icon": "bi bi-buildings"
+        },
+        {
+            "code": 3,
+            "link": "/carriers",
+            "icon": "bi bi-truck"
+        },
+        {
+            "code": 4,
+            "link": "/admin",
+            "icon": "bi bi-person-lock"
+        }
+    ],
+    "pageMenus": [
+        {
+            "pageCode": 4,
+            "menus": [
+                {
+                    "code": 4.1,
+                    "link": "/admin/routeExplorer"
+                },
+                {
+                    "code": 4.2,
+                    "link": "/admin/system"
+                },
+                {
+                    "code": 4.3,
+                    "link": "/admin/scanner"
+                },
+                {
+                    "code": 4.4,
+                    "link": "/admin/userMaintenance"
+                },
+                {
+                    "code": 4.5,
+                    "link": "/admin/distributorMaintenance"
+                },
+                {
+                    "code": 4.6,
+                    "link": "/admin/dealerMaintenance"
+                },
+                {
+                    "code": 4.7,
+                    "link": "/admin/plantCountriesMaintenance"
+                },
+                {
+                    "code": 4.8,
+                    "link": "/admin/eventMaintenance"
+                },
+                {
+                    "code": 4.9,
+                    "link": "/admin/carrierMaintenance"
+                },
+                {
+                    "code": 4.11,
+                    "link": "/admin/locationEventMaintenance"
+                },
+                {
+                    "code": 4.12,
+                    "link": "/admin/routigRoulesMaintenance"
+                },
+                {
+                    "code": 4.13,
+                    "link": "/admin/bulkEmailAdjustments"
+                },
+                {
+                    "code": 4.14,
+                    "link": "/admin/calendarMaintenance"
+                },
+                {
+                    "code": 4.15,
+                    "link": "/admin/batchJobProgress"
+                }
+            ]
+        }
+    ]
+}
