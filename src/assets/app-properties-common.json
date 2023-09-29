@@ -1,0 +1,17 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "flag": "fi fi-gb",
+      "name": "English"
+    }
+  ],
+  "menus": [
+    {
+      "code": 1,
+      "link": "",
+      "icon": "bi bi-house"
+    }
+  ],
+  "pageMenus": []
+}

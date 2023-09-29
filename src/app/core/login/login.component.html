@@ -1,0 +1,27 @@
+<!--Log in form-->
+<div class="container opacity-75 d-flex justify-content-center">
+  <div class="row">
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+      <img class="text-light fs-3" src="./assets/logo.png" width="33%"
+        style="display: block; margin-left: auto; margin-right: auto" alt="DS" />
+      <br />
+      <!--This component will have hard coded text as it will not be translated-->
+      <div *ngIf="error" class="alert alert-danger d-flex" role="alert">
+        <div>User details are incorrect. Cannot Log In.</div>
+      </div>
+      <form>
+        <div class="mb-3">
+          <label for="InputCCSID" class="form-label">CCSID</label>
+          <input type="id" class="form-control" id="ccsid" aria-describedby="CCSID" />
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+        <button type="button" class="btn btn-primary" (click)="logInUser()">
+          Log In
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

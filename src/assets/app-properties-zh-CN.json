@@ -1,0 +1,74 @@
+{
+  "language": "zh-CN",
+  "text": {
+    "languages": [
+      {
+        "code": "en-GB",
+        "flag": "fi fi-gb",
+        "name": "English"
+      },
+      {
+        "code": "sk-SK",
+        "flag": "fi fi-sk",
+        "name": "Slovenský"
+      },
+      {
+        "code": "de-DE",
+        "flag": "fi fi-de",
+        "name": "Deutsch"
+      },
+      {
+        "code": "pt-PT",
+        "flag": "fi fi-pt",
+        "name": "Português"
+      },
+      {
+        "code": "zh-CN",
+        "flag": "fi fi-cn",
+        "name": "中文"
+      },
+      {
+        "code": "ua-UA",
+        "flag": "fi fi-ua",
+        "name": "Українська"
+      }
+    ],
+    "menus": [
+      {
+        "name": "主页",
+        "link": "",
+        "icon": "bi bi-house"
+      },
+      {
+        "name": "工厂",
+        "link": "/plant",
+        "icon": "bi bi-buildings"
+      },
+      {
+        "name": "运营商",
+        "link": "/carriers",
+        "icon": "bi bi-truck"
+      },
+      {
+        "name": "管理区",
+        "link": "/admin",
+        "icon": "bi bi-person-lock"
+      }
+    ],
+    "home": {
+      "title": "D42 - 配电系统",
+      "subtitle": "主页仪表板",
+      "text1": "欢迎来到 D42 Web！",
+      "text2": "请注意，此应用程序仍在开发中。",
+      "text3": "目前只有这些功能：",
+      "point1": "更改应用程序的语言。",
+      "point2": "登录和退出应用程序。"
+    },
+    "footer": "此应用程序正在开发中。",
+    "header": {
+      "text1": "角色: ",
+      "text2": "位置: ",
+      "button": "注销"
+    }
+  }
+}
