@@ -1,0 +1,27 @@
+<!--Menu bar-->
+<app-admin-menu-bar></app-admin-menu-bar>
+<!--Admin Dashboard-->
+<div class="container opacity-75 align-items-center">
+    <!--Warning Message-->
+    <div class="row mt-4">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h5 class="alert-heading"><i
+                    class="bi bi-exclamation-triangle-fill"></i><strong>{{text.warningTittle}}</strong>
+                {{text.warningMessage}}
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    <!--Main Area-->
+    <div class="row">
+        <div class="mt-4 p-5 bg-secondary text-white rounded">
+            <h1>
+                <i class="bi bi-person-lock"></i> {{ text.title }}<br />
+            </h1>
+            <h3>{{ text.text1 }}</h3>
+            <h3>{{ text.text2 }}</h3>
+            <h4>{{ text.text3 }}</h4>
+            <br><br>
+        </div>
+    </div>
+</div>

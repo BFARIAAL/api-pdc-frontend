@@ -1,0 +1,74 @@
+{
+  "language": "de-DE",
+  "text": {
+    "languages": [
+      {
+        "code": "en",
+        "flag": "fi fi-gb",
+        "name": "English"
+      },
+      {
+        "code": "sk-SK",
+        "flag": "fi fi-sk",
+        "name": "Slovenský"
+      },
+      {
+        "code": "de-DE",
+        "flag": "fi fi-de",
+        "name": "Deutsch"
+      },
+      {
+        "code": "pt",
+        "flag": "fi fi-pt",
+        "name": "Português"
+      },
+      {
+        "code": "zh-CN",
+        "flag": "fi fi-cn",
+        "name": "中文"
+      },
+      {
+        "code": "ua-UA",
+        "flag": "fi fi-ua",
+        "name": "Українська"
+      }
+    ],
+    "menus": [
+      {
+        "name": "Home-Dashboard",
+        "link": "",
+        "icon": "bi bi-house"
+      },
+      {
+        "name": "Werk",
+        "link": "/plant",
+        "icon": "bi bi-buildings"
+      },
+      {
+        "name": "Spediteur",
+        "link": "/carriers",
+        "icon": "bi bi-truck"
+      },
+      {
+        "name": "Admin-Bereich",
+        "link": "/admin",
+        "icon": "bi bi-person-lock"
+      }
+    ],
+    "home": {
+      "title": "D42 – Verteilungssystem",
+      "subtitle": "Home-Dashboard",
+      "text1": "Willkommen bei D42 Web!",
+      "text2": "Bitte beachten Sie, dass sich diese Anwendung noch in der Entwicklung befindet.",
+      "text3": "Derzeit sind dies die einzigen Funktionalitäten:",
+      "point1": "Ändern Sie die Sprache der Anwendung.",
+      "point2": "Melden Sie sich bei der Anwendung an und ab."
+    },
+    "footer": "Diese Anwendung befindet sich in der Entwicklung.",
+    "header": {
+      "text1": "Rolle: ",
+      "text2": "Ort: ",
+      "button": "Abmelden"
+    }
+  }
+}
