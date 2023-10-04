@@ -11,6 +11,11 @@
       "code": 1,
       "link": "",
       "icon": "bi bi-house"
+    },
+    {
+      "code": 2,
+      "link": "/vehicles",
+      "icon": "bi bi-car-front-fill"
     }
   ],
   "pageMenus": []
