@@ -4,6 +4,7 @@ import { Vehicles } from 'src/app/core/models/vehicles.model';
 import { VehiclesService } from 'src/app/services/vehicles.service';
 
 declare function filterTable() : void;
+declare function filterTableStatus() : void;
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -13,8 +14,10 @@ declare function filterTable() : void;
 export class DashboardComponent implements OnInit {
   vehicleList: Array<Vehicles> = new Array;
   locationList: Set<String> = new Set;
+  statusList: Set<String> = new Set;
   constructor(private vehiclesService: VehiclesService) {
     filterTable();
+    filterTableStatus();
   }
 
   ngOnInit(): void {
@@ -34,6 +37,7 @@ export class DashboardComponent implements OnInit {
         console.log(element)
         this.vehicleList.push(new Vehicles(element.vin, element.locCode, element.status));
         this.locationList.add(element.locCode);
+        this.statusList.add(element.status);
       }
     });
     

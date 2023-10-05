@@ -16,6 +16,24 @@ function filterTable(){
     }
 }
 
+function filterTableStatus(){
+  let tr = document.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td");
+      if (td.length!=0) {
+        txtValue = td[2].textContent || td[2].innerText;
+        if (txtValue.toUpperCase().indexOf(statusFilter.value) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+        if (statusFilter.value == "Select Option") {
+          tr[i].style.display = "";
+        }
+      }
+    }
+}
+
 
 function filterByVIN(){
   let tr = document.getElementsByTagName("tr");

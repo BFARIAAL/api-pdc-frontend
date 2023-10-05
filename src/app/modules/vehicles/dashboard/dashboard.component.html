@@ -9,13 +9,18 @@
       <br />
       <h6>This page shows a list of vehicles available in the D42 Platform. Filters are available below.</h6>
       <br>
-      Filter by location: &nbsp; &nbsp; <select class="form-select" id="locationFilter" onchange="filterTable()"><option>Select Option</option><option *ngFor="let item of locationList">{{item}}</option></select>
+      Filter by Location: &nbsp; &nbsp; <select class="form-select" id="locationFilter" onchange="filterTable()"><option>Select Option</option><option *ngFor="let item of locationList">{{item}}</option></select>
       <br>
       Filter by VIN : <input class="form-control" onkeyup="filterByVIN()" id="vinFilter" type="text" placeholder="Search by VIN" width="30%">
       <br>
+      Filter by Status: &nbsp; &nbsp; <select class="form-select" id="statusFilter" onchange="filterTableStatus()"><option>Select Option</option><option *ngFor="let itemStatus of statusList">{{itemStatus}}</option></select>
       <br>
-  
-      <table style="color: white; text-align: center;" class="table table-dark">
+      <br>
+      
+      <style>
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th { color: rgba(255, 0, 0, 1)!important}
+      </style>
+      <table style="color: white; text-align: center;" class="table table-hover table-dark ">
         <thead>
           <tr >
             <th>VIN</th>
@@ -25,7 +30,7 @@
         </thead>
         <tbody>
           <tr *ngFor="let item of  vehicleList">
-            <td>{{item.vin}}</td>
+            <td >{{item.vin}}</td>
             <td>{{item.locCode}}</td>
             <td>{{item.status}}</td>
           </tr>
