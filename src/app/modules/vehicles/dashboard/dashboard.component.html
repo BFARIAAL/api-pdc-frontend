@@ -1,41 +1,13 @@
-
-<script src="../../../../assets/vehiclesPage.js"></script>
 <div class="container opacity-75">
   <div class="row">
     <div class="mt-4 p-5 bg-secondary text-white rounded">
       <h1>
         <h2>Vehicle List:</h2>
       </h1>
-      <br />
-      <h6>This page shows a list of vehicles available in the D42 Platform. Filters are available below.</h6>
-      <br>
-      Filter by Location: &nbsp; &nbsp; <select class="form-select" id="locationFilter" onchange="filterTable()"><option>Select Option</option><option *ngFor="let item of locationList">{{item}}</option></select>
-      <br>
-      Filter by VIN : <input class="form-control" onkeyup="filterByVIN()" id="vinFilter" type="text" placeholder="Search by VIN" width="30%">
-      <br>
-      Filter by Status: &nbsp; &nbsp; <select class="form-select" id="statusFilter" onchange="filterTableStatus()"><option>Select Option</option><option *ngFor="let itemStatus of statusList">{{itemStatus}}</option></select>
-      <br>
-      <br>
-      
-      <style>
-        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th { color: rgba(255, 0, 0, 1)!important}
-      </style>
-      <table style="color: white; text-align: center;" class="table table-hover table-dark ">
-        <thead>
-          <tr >
-            <th>VIN</th>
-            <th>Location</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let item of  vehicleList">
-            <td >{{item.vin}}</td>
-            <td>{{item.locCode}}</td>
-            <td>{{item.status}}</td>
-          </tr>
-        </tbody>
-      </table>
+
+      <app-vehicle-filters onload="populateElements()"></app-vehicle-filters>
+      <app-all-vehicle-table></app-all-vehicle-table>
+
     </div>
   </div>
 </div>

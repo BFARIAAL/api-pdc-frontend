@@ -10,16 +10,16 @@ const routes: Routes = [
         loadChildren: () =>
           import('./modules/home/home.module').then((m) => m.HomeModule)
       },
-//       {
-//         path: 'plant',
-//         loadChildren: () =>
-//           import('./modules/plants/plants.module').then((m) => m.PlantsModule)
-//       },
-//       {
-//         path: 'admin',
-//         loadChildren: () =>
-//           import('./modules/admin-area/admin-area.module').then((m) => m.AdminModule)
-//       },
+      // {
+      //   path: 'plant',
+      //   loadChildren: () =>
+      //     import('./modules/plants/plants.module').then((m) => m.PlantsModule)
+      // },
+      // {
+      //   path: 'admin',
+      //   loadChildren: () =>
+      //     import('./modules/admin-area/admin-area.module').then((m) => m.AdminModule)
+      // },
       {
         path: 'vehicles',
         loadChildren: () =>

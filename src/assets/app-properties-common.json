@@ -4,6 +4,11 @@
       "code": "en",
       "flag": "fi fi-gb",
       "name": "English"
+    },
+    {
+      "code": "pt",
+      "flag": "fi fi-pt",
+      "name": "Português"
     }
   ],
   "menus": [
