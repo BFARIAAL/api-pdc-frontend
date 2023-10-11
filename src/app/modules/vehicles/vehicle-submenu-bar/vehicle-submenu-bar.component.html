@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-secondary bg-secondary opacity-75">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" *ngFor="let menu of menus">
+                    <a class="nav-link active text-white" aria-current="page" routerLink="{{ menu.link }}">
+                        {{ menu.text}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+

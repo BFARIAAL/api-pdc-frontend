@@ -4,6 +4,11 @@
       "code": "en",
       "flag": "fi fi-gb",
       "name": "English"
+    },
+    {
+      "code": "pt",
+      "flag": "fi fi-pt",
+      "name": "Português"
     }
   ],
   "menus": [
@@ -11,6 +16,11 @@
       "code": 1,
       "link": "",
       "icon": "bi bi-house"
+    },
+    {
+      "code": 2,
+      "link": "/vehicles",
+      "icon": "bi bi-car-front-fill"
     }
   ],
   "pageMenus": []

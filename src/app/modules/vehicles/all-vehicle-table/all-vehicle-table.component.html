@@ -1,0 +1,23 @@
+<table style="color: white; text-align: center;" class="table table-hover table-dark ">
+  <thead>
+    <tr>
+      <th>VIN</th>
+      <th>Location</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of  vehicleList">
+      <td>{{item.vin}}</td>
+      <td>{{item.locCode}}</td>
+      <td>{{item.status}}</td>
+
+      <td>
+        <button type="button" class="btn btn-secondary"><i class="bi bi-search"></i></button>
+        &nbsp; &nbsp;
+        <button type="button" class="btn btn-secondary"><i class="bi bi-printer"></i></button> 
+      </td>
+    </tr>
+  </tbody>
+</table>

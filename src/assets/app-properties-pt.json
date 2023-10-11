@@ -80,7 +80,7 @@
       },
       {
         "code": 2,
-        "name": "Plantas"
+        "name": "Veículos"
       },
       {
         "code": 3,
@@ -105,6 +105,18 @@
       "text1": "Função: ",
       "text2": "Localização: ",
       "button": "Sair"
+    },
+    "vehicles": {
+      "title": "D42 - Vehicles",
+      "subtitle": "Vehicles List",
+      "filterMainOptions": ["VIN", "Localização", "Estado"],
+      "filterButton": "Filtrar",
+      "subfilter1": "Pesquisar por VIN",
+      "subfilter2": "Seleccionar Opção",
+      "subfilter3": "Seleccionar Opção",
+      "tableCell1": "VIN",
+      "tableCell2": "Localização",
+      "tableCell3": "Estado"
     },
     "admin": {
       "title": "Área Administrativa",

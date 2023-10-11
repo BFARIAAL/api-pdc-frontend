@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Menu } from './core/models/menu.model';
 import { User } from './core/models/user.model';
+import { Vehicles } from './core/models/vehicles.model';
 
 @Component({
   selector: 'app-root',

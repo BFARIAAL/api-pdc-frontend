@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { HeaderComponent } from './core/header/header.component';
+import { LoadingScreenComponent } from './core/loading-screen/loading-screen.component';
 import { LoginComponent } from './core/login/login.component';
 import { MenuBarComponent } from './core/menu-bar/menu-bar.component';
-import { LoadingScreenComponent } from './core/loading-screen/loading-screen.component';
+import { VehicleSubmenuBarComponent } from './modules/vehicles/vehicle-submenu-bar/vehicle-submenu-bar.component';
 
 
 @NgModule({
@@ -18,6 +19,8 @@ import { LoadingScreenComponent } from './core/loading-screen/loading-screen.com
     FooterComponent,
     LoginComponent,
     LoadingScreenComponent,
+    VehicleSubmenuBarComponent,
+    
   ],
   imports: [HttpClientModule, BrowserModule, AppRoutingModule],
   providers: [],
